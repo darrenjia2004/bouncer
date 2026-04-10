@@ -1,0 +1,27 @@
+vet-output.txt
+
+# Xcode user-specific files
+xcuserdata/
+*.xcuserstate
+
+# Xcode build artifacts
+build/
+DerivedData/
+
+# JetBrains IDE
+.idea/
+
+# macOS
+.DS_Store
+
+# Environment files with secrets
+Bouncer/.env.prod
+Bouncer/.env.dev
+
+# Node
+node_modules/
+
+# Playwright / test scripts
+.playwright-profile/
+screenshots/
+test-filtered-view.mjs
